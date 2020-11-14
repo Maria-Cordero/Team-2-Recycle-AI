@@ -12,10 +12,10 @@ This application identifies which recyclable material an item is made of based o
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Utility or Lifestyle?
-- **Mobile:**
-- **Story:**
-- **Market:**
+- **Category:** Utilities
+- **Mobile:** Only Mobile as it will require camera for the main functionality. If Marketplace is expanded upon, we may have a website for easier to view store functionality.
+- **Story:** This app will be able to scan any article and analyze its material. After that, a description of the scanned material would be provided along with available recycling locations across the country.
+- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
 - **Habit:** This app contains a reward system for the users. Users earn points everytime they take a picture of a new item to recycle and reach milestones. This gamified approach can make users prone to visiting the app more often.
 - **Scope:** The app targets a demographic interested in recycling. We want to grow and maintain our user base by helping streamline the recycling process. Later, we would like to expand the application to have an interactive aspect through the marketplace where users can put up items that they will no longer use for somebody else to have. 
 
@@ -25,22 +25,29 @@ This application identifies which recyclable material an item is made of based o
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+*	User can take photo of item and model will analyze recyclability
+*	User will be shown nearest locations to recycle analyzed item
+*	Information pane for recycling statistics including but not limited to material hazards
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+*	Global news page related to environmental issues
+*	Marketplace page to donate household inventory with search filters(predetermined) 
+*	Profile: 
+  -	Preferred recycling location
+  -	donation history(bought/sold) 
+  -	Avatar upgrades
+  -	Reward system
+*	People near me page to see others around you who recycle
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Home: This is the main and principal view of the app. It will be prompted as soon as the user launches the app.
+*	Map: This view allows the users to browse through the available locations of recycling centers around the country.
+*	Profile: Allows user to upload a photo and fill in valuable information.
+*	Camera: The camera view will allow users to scan their items. They can do so using the front or back camera of their devices.
+*	Marketplace: The marketplace will allow users to navigate and browse, as well as to post items with certain characteristics in order to sell or buy them.
+*	Information: The information section will provide user with useful information, tips and other related facts regarding the material of their items.
 
 ### 3. Navigation
 
