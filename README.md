@@ -34,10 +34,10 @@ This application identifies which recyclable material an item is made of based o
 *	Global news page related to environmental issues
 *	Marketplace page to donate household inventory with search filters(predetermined) 
 *	Profile: 
-   -	Preferred recycling location
-   -	donation history(bought/sold) 
-   -	Avatar upgrades
-   -	Reward system
+  - Preferred recycling location
+  - donation history(bought/sold) 
+  - Avatar upgrades
+  - Reward system
 *	People near me page to see others around you who recycle
 
 ### 2. Screen Archetypes
