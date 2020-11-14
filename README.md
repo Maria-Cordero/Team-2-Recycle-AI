@@ -16,8 +16,8 @@ This application identifies which recyclable material an item is made of based o
 - **Mobile:**
 - **Story:**
 - **Market:**
-- **Habit:**
-- **Scope:**
+- **Habit:** This app contains a reward system for the users. Users earn points everytime they take a picture of a new item to recycle and reach milestones. This gamified approach can make users prone to visiting the app more often.
+- **Scope:** The app targets a demographic interested in recycling. We want to grow and maintain our user base by helping streamline the recycling process. Later, we would like to expand the application to have an interactive aspect through the marketplace where users can put up items that they will no longer use for somebody else to have. 
 
 ## Product Spec
 
@@ -45,19 +45,19 @@ This application identifies which recyclable material an item is made of based o
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
+* Map
+* Camera
+* Information
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+Optional:
+* Marketplace
+* Profile
 
 **Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Camera Screen -> Information
+* Log In screen -> Account creation if new user -> Camera Screen
+* Marketplace -> Filtered Listings
+* Information -> News article redirect to browser
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
