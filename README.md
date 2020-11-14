@@ -67,12 +67,10 @@ Optional:
 * Information -> News article redirect to browser
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/Maria-Cordero/Team-2-Recycle-AI/blob/main/Images/wireframe.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+<img src="https://github.com/Maria-Cordero/Team-2-Recycle-AI/blob/main/Images/wireframe-digital.PNG" width=600>
 
 ## Schema 
 [This section will be completed in Unit 9]
