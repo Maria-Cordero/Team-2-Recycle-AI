@@ -75,8 +75,59 @@ Optional:
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+**User Profile**  
+|   Property   	|     Type    	|              Description             	|
+|:------------:	|:-----------:	|:------------------------------------:	|
+| userId       	| String      	| Unique id for user profile (default) 	|
+| profileImage 	| File        	| Image that user uploads              	|
+| donations    	| Arrays      	| Array of info                       	|
+| credentials  	| JSON object 	| { email , hashed password }          	|
+| levels       	| Number      	| Level progression system             	|
+
+**Camera**  
+|    Property   	|     Type    	|       Description      	|
+|:-------------:	|:-----------:	|:----------------------:	|
+| materialImage 	| File        	| Image of the material  	|
+| Model data    	| JSON Object 	| Material data response 	|
+
+**Recyclable Material information**  
+|  Property  	|     Type     	|                Description               	|
+|:----------:	|:------------:	|:----------------------------------------:	|
+| materialId 	| String       	| Unique id for recyclable material; PK    	|
+| news       	| JSON  Object 	| Data response of news about the material 	|
+
+**Maps**
+|    Property    	|     Type    	|                                                                                                  Description                                                                                                 	|
+|:--------------:	|:-----------:	|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
+| locationId     	| String      	| Unique id for map location; PK                                                                                                                                                                               	|
+| Recycling hubs 	| Array       	| Array of objects containing data of all nearby recycling centers [{   name: string,      acceptedMaterials: array,      location: {          longitud: string,         latitud: string,      }, },... {...}] 	|
+| User location  	| JSON Object 	| Current location of user                                                                                                                                                                                     	|  
+
+**Marketplace Posts**
+|  Property 	|       Type      	|           Description           	|
+|:---------:	|:---------------:	|:-------------------------------:	|
+| objectId  	| String          	| unique id for the user post; PK 	|
+| author    	| Pointer to User 	| image author; FK                	|
+| image     	| File            	| image that user posts           	|
+| caption   	| String          	| image caption by author         	|
+| createdAt 	| DateTime        	| date when post is created       	|
+| updatedAt 	| DateTime        	| date when post is last updated  	|
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+*	Maps Screen  
+    * (Read/GET) Query Location id  
+    * (Read/GET) Recycling hubs  
+    * (Read/GET) Query User location  
+*   Profile Screen  
+    * (Read/GET) Query logged in user object  
+    * (Update/PUT) Update user profile image  
+    * (Read/GET) Query market listings  
+*   Camera  
+    * (Read/GET) Query Model Data  
+    * (Update/PUT) Update material image  
+*   Recyclable Material Information  
+    * (Read/GET) Query news related to recycling  
+    * (Read/GET) Query array of recyclable materials with pictures / data 
+
+
