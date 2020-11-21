@@ -73,7 +73,6 @@ Optional:
 <img src="https://github.com/Maria-Cordero/Team-2-Recycle-AI/blob/main/Images/wireframe-digital.PNG" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 
 **User Profile**  
