@@ -76,13 +76,13 @@ Optional:
 ### Models
 
 **User Profile**  
-|   Property   	|     Type    	|              Description             	|
-|:------------:	|:-----------:	|:------------------------------------:	|
-| userId       	| String      	| Unique id for user profile (default) 	|
-| profileImage 	| File        	| Image that user uploads              	|
-| donations    	| Arrays      	| Array of info                       	|
-| credentials  	| JSON object 	| { email , hashed password }          	|
-| levels       	| Number      	| Level progression system             	|
+|   Property   	|     Type    	|                Description                	|
+|:------------:	|:-----------:	|:-----------------------------------------:	|
+| userId       	| String      	| Unique id for user profile; PK            	|
+| profileImage 	| File        	| Image that user uploads                   	|
+| donations    	| Arrays      	| Information of all donations made by user 	|
+| credentials  	| JSON object 	| Credentials used for user login           	|
+| levels       	| Number      	| Level progression system                  	|
 
 **Camera**  
 |    Property   	|     Type    	|       Description      	|
